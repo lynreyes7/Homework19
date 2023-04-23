@@ -1,0 +1,289 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:700|Open+Sans:400|Abel:400");
+
+:root {
+  --pink: #f6a8a8;
+  --white: #ffffff;
+  --black: #000000;
+  --charade: #253237;
+  --font-size-xl: 40px;
+  --font-size-xs: 19px;
+  --font-size-s: 20px;
+  --font-size-m: 24px;
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-abel: "Abel", Helvetica;
+  --font-family-open_sans: "Open Sans", Helvetica;
+}
+
+.desktop {
+  align-items: flex-end;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 1024px;
+  width: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1409px;
+}
+
+.low-fi-prototype-for-an-itinerary-app {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 27px;
+  margin-bottom: 26px;
+  margin-left: 124px;
+  min-width: 348px;
+}
+
+.low-fi-prototype-for-an-itinerary-app-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -29px;
+  min-height: 27px;
+}
+
+.opensans-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.academy-for-autisms {
+  align-items: flex-start;
+  display: flex;
+  height: 54px;
+  margin-top: 6px;
+  min-width: 402px;
+}
+
+.academy-for-autisms-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -22px;
+  min-height: 54px;
+  width: 402px;
+}
+
+.a-mobile-application {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  margin-left: 138px;
+  min-width: 397px;
+}
+
+.a-mobile-application-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -22px;
+  min-height: 81px;
+  width: 397px;
+}
+
+.desktop .flex {
+  align-items: flex-end;
+  display: flex;
+}
+
+.flex-row {
+  gap: 25px;
+  height: 860px;
+  margin-right: 7px;
+  min-width: 1401px;
+}
+
+.screenshot-at-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 357px;
+  min-height: 860px;
+  width: 362px;
+}
+
+.logo {
+  height: 231px;
+  margin-right: 60px;
+  object-fit: cover;
+  width: 109px;
+}
+
+.autism {
+  height: 272px;
+  object-fit: cover;
+  width: 362px;
+}
+
+.flex-col {
+  flex-direction: column;
+  gap: 105px;
+  min-height: 833px;
+  width: 1014px;
+}
+
+.flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  gap: 26px;
+  height: 680px;
+  min-width: 1014px;
+}
+
+.flex-col-2 {
+  gap: 65px;
+  min-height: 688px;
+  width: 444px;
+}
+
+.desktop .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.golden {
+  align-self: flex-end;
+  height: 272px;
+  width: 340px;
+}
+
+.profile {
+  height: 351px;
+  object-fit: cover;
+  width: 353px;
+}
+
+.flex-col-1 {
+  min-height: 612px;
+  width: 544px;
+}
+
+.being {
+  align-self: flex-end;
+  height: 272px;
+  margin-top: 77px;
+  width: 392px;
+}
+
+.im-a-ux-designer-wi {
+  color: var(--charade);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 51px;
+  min-height: 165px;
+  width: 503px;
+}
+
+.title {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.hey-im-lynette-reyes {
+    opacity: 0;
+    animation: fadeInOut 4s ease-in-out infinite;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+#text { 
+  color: var(--charade);
+  font-weight: 700;
+  line-height: normal;
+  min-height: 47px;
+}
+
+.overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 40px;
+  min-width: 600px;
+}
+
+.desktop .overlap {
+  align-items: flex-start;
+  background-color: var(--pink);
+  border-radius: 20px;
+  display: flex;
+  height: 40px;
+}
+
+.overlap-group1 {
+  justify-content: flex-end;
+  min-width: 104px;
+  padding: 7px 10px;
+}
+
+.abel-normal-white-19px {
+  color: var(--white);
+  font-family: var(--font-family-abel);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.label-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+  width: 83px;
+}
+
+.overlap-group2 {
+  min-width: 88px;
+  padding: 7px 14px;
+}
+
+.label {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+}
+
+.overlap-group3 {
+  min-width: 88px;
+  padding: 7px 23px;
+}
+
+.overlap-group {
+  justify-content: flex-end;
+  min-width: 88px;
+  padding: 7px 13px;
+}
+
